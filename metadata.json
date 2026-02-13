@@ -1,0 +1,8 @@
+
+{
+  "name": "Mừng Sinh Nhật Công Chúa",
+  "description": "Một ứng dụng web ngọt ngào, tràn ngập sắc hồng và tình yêu để chúc mừng sinh nhật bạn gái.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
