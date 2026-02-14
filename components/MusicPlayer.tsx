@@ -22,7 +22,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ isPlaying, setIsPlaying }) =>
       <audio
         ref={audioRef}
         loop
-        src="./styles/nhac.mp3" // Replace with a cute background song
+        src="/styles/nhac.mp3" // Replace with a cute background song
       />
       <button
         onClick={() => setIsPlaying(!isPlaying)}
