@@ -31,7 +31,7 @@ const App: React.FC = () => {
         <FloatingHearts />
         <div className="z-10 bg-white rounded-3xl p-8 shadow-2xl max-w-sm w-full border-4 border-pink-300">
           <img 
-            src="https://picsum.photos/seed/cute-loopy/400/400" 
+            src="./styles/6.jpg" 
             alt="Loopy" 
             className="w-48 h-48 mx-auto rounded-full border-4 border-pink-200 mb-6 object-cover shadow-inner"
           />
@@ -57,7 +57,7 @@ const App: React.FC = () => {
       <div className="mt-12 text-center z-10 space-y-4 px-4 max-w-md">
         <div className="relative inline-block">
           <img 
-            src="https://picsum.photos/seed/loopy-happy/400/400" 
+            src="./styles/7.jpg" 
             alt="Happy Loopy" 
             className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full border-4 border-white shadow-xl mb-4"
           />
