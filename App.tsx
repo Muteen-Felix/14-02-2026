@@ -31,7 +31,7 @@ const App: React.FC = () => {
         <FloatingHearts />
         <div className="z-10 bg-white rounded-3xl p-8 shadow-2xl max-w-sm w-full border-4 border-pink-300">
           <img 
-            src="./styles/6.jpg" 
+            src="/styles/6.jpg" 
             alt="Loopy" 
             className="w-48 h-48 mx-auto rounded-full border-4 border-pink-200 mb-6 object-cover shadow-inner"
           />
@@ -57,7 +57,7 @@ const App: React.FC = () => {
       <div className="mt-12 text-center z-10 space-y-4 px-4 max-w-md">
         <div className="relative inline-block">
           <img 
-            src="./styles/7.jpg" 
+            src="/styles/7.jpg" 
             alt="Happy Loopy" 
             className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full border-4 border-white shadow-xl mb-4"
           />
@@ -122,16 +122,16 @@ const App: React.FC = () => {
         <h3 className="text-2xl font-romance text-pink-600 text-center">Những Kỷ Niệm Đáng Yêu</h3>
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-white p-2 rounded-xl shadow-md rotate-[-3deg] border-4 border-white transform hover:rotate-0 transition duration-300">
-            <img src="./styles/1.jpg" alt="Moment 1" className="rounded-lg w-full h-40 object-cover" />
+            <img src="/styles/1.jpg" alt="Moment 1" className="rounded-lg w-full h-40 object-cover" />
           </div>
           <div className="bg-white p-2 rounded-xl shadow-md rotate-[3deg] border-4 border-white transform hover:rotate-0 transition duration-300">
-            <img src="./styles/4.jpg" alt="Moment 2" className="rounded-lg w-full h-40 object-cover" />
+            <img src="/styles/4.jpg" alt="Moment 2" className="rounded-lg w-full h-40 object-cover" />
           </div>
           <div className="bg-white p-2 rounded-xl shadow-md rotate-[-2deg] border-4 border-white transform hover:rotate-0 transition duration-300">
-            <img src="./styles/3.jpg" alt="Moment 3" className="rounded-lg w-full h-40 object-cover" />
+            <img src="/styles/3.jpg" alt="Moment 3" className="rounded-lg w-full h-40 object-cover" />
           </div>
           <div className="bg-white p-2 rounded-xl shadow-md rotate-[2deg] border-4 border-white transform hover:rotate-0 transition duration-300">
-            <img src="./styles/2.jpg" alt="Moment 4" className="rounded-lg w-full h-40 object-cover" />
+            <img src="/styles/2.jpg" alt="Moment 4" className="rounded-lg w-full h-40 object-cover" />
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ const App: React.FC = () => {
       {/* Footer Floating Loopy */}
       <div className="mt-12 mb-8 z-10 flex flex-col items-center gap-4">
         <img 
-          src="./styles/5.jpg" 
+          src="/styles/5.jpg" 
           alt="Cute" 
           className="w-24 h-24 animate-bounce"
         />
